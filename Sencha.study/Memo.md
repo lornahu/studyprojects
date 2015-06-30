@@ -48,3 +48,7 @@ ln -s ~/Sencha/ExtJS/extjs ext
 4. Generate App
 sencha -sdk /path/to/ext generate app ExtApp /path/to/workspace/extApp 
 sencha -sdk ./ext generate app ExtApp extApp
+
+5. Build App
+cd extApp
+sencha app build
